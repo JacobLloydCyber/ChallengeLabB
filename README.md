@@ -11,8 +11,7 @@ The purpose of this lab....
 
 <h2>Environments Used (PROBABLY DELETE?) </h2>
 
-- <b>Windows 10</b>
-- <b>Windows Server 2019</b> 
+- <b>Linux Ubuntu image within Virtualbox</b>
 
 <h2>Key Points Within Lab: </h2>
 
