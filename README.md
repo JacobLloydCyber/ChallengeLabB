@@ -3,9 +3,9 @@
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-The purpose of this lab.... 
+** This lab is modeled after Challenge Lab B in the 'Linux Essentials' course from the Network Development Group (NDG). **
 
-** This lab is modeled after 'Challenge Lab B' in the Linux Essentials course from Network Development Group. **
+The purpose of this lab...
 <br />
 
 
