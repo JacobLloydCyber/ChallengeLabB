@@ -8,11 +8,6 @@
 The purpose of this lab...
 <br />
 
-
-<h2>Environments Used (PROBABLY DELETE?) </h2>
-
-- <b>Linux Ubuntu image within Virtualbox</b>
-
 <h2>Key Points Within Lab: </h2>
 
 - <b>Installation of Active Directory and creation of mydomain.com</b>
