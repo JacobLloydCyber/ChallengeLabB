@@ -3,7 +3,7 @@
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-** This lab is modeled after Challenge Lab B in the 'Linux Essentials' course from the Network Development Group (NDG). **
+** This lab reflects Challenge Lab B in the 'Linux Essentials' course from the Network Development Group. **
 
 The purpose of this lab...
 <br />
