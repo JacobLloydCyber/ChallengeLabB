@@ -1,26 +1,25 @@
-<h1>Challenge Lab B: UNDER CONSTRUCTION!!!</h1>
+<h1>Challenge Lab B: Bash Scripting</h1>
 
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
 ** This lab reflects Challenge Lab B in the 'Linux Essentials' course from the Network Development Group. **
 
-The purpose of this lab...
-<br />
+The purpose of this lab is to demonstrate proficiency of using the built-in text editors of Linux to write a bash script which makes the user account creation process more efficient. The scenario provided within this lab states that it can be tedious, time-consuming, and leaves room for potential errors when issuing commands one-by-one in order to add a new user to the system. So, we are tasked with streamlining this process and also expected to meet the following requirements:
+- The script must only accept input that allows for the creation of a unique user and group. If a user or group name already exists in the system, it must provide an 'error' message and prompt for a different user or group name. The script must also allow for a password to be set for each user created.
+- The script must create a directory at the root of the filesystem which matches the name of the user that was created. The permissions for this directory are to be set in such a manner that the respective user is also owner of the directory and the sole individual that can delete files within their directory. 
 
 <h2>Key Points Within Lab: </h2>
 
-- <b>Installation of Active Directory and creation of mydomain.com</b>
-- <b>Routing enabled via configuration of RAS and NAT</b>
-- <b>Configuration of DHCP for automatic IP addressing</b>
-- <b>Powershell script for automatic user account creation</b>
-- <b>Creation of user workstation (CLIENT1) and joining of CLIENT1 to mydomain.com</b>
-- <b>Creation of various Security Groups for network division into specific departments</b>
+- <b>Creation of executable script which streamlines account username, group, and password creation.</b>
+- <b>Ability of script to conduct proper error handling if a non-unique user or group name is provided.</b>
+- <b>Utilization of proper syntax to allow the script to correctly and smoothly process functions and commands.</b>
+- <b>Creation of a directory in the root of the file system for each new user in which the user is the owner of their directory.</b>
 
 <h2>Lab walk-through:</h2>
 
 <p align="center">
-Pictured below is a basic diagram of the full, configured network. The first VM, the domain controller (denoted DC) houses Active Directory and our domain (mydomain.com) via the installation of a Windows Server 2019 iso. This VM is configured to have two network adapters; one external adapter that connects to the internet, and one internal adapter that clients from inside the private network will connect to. The external NIC automatically receives IP addressing from my home router, while the internal NIC has IP addressing manually assigned to it. NAT and routing are configured on the domain controller allowing clients from the internal portion of the network a means to reach the internet through the domain controller. DHCP is configured with the info listed below so that our client machine (denoted CLIENT1, and using Windows 10) can automatically receive an IP address. CLIENT1 is joined to mydomain.com allowing any respective members to login and use this machine with their respective credentials. <br/>
+Pictured below..... . <br/>
 <img src="https://i.imgur.com/sjZxzd9.png" height="80%" width="80%" alt="AD Home Lab"/>
 <br />
 <br />
