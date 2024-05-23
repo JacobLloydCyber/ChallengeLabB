@@ -19,25 +19,25 @@ The purpose of this lab is to demonstrate proficiency of using the built-in text
 <h2>Lab walk-through:</h2>
 
 <p align="center">
-Pictured below..... . <br/>
+In the image below, we are working within nano to create the first portion of the script which includes the set_username and set_group functions. These functions are designed to prompt for a user and group name, and after recieving input, will check /etc/passwd/ and /etc/group/ to see if those names already exist within the system. If the input names are unique, they will be accepted and a new user and group will be created. However, if the names already exist, the user will be provided with an error message and will be prompted to use a different name. <br/>
 <img src="https://i.imgur.com/sjZxzd9.png" height="80%" width="80%" alt="AD Home Lab"/>
 <br />
 <br />
 
 <p align="center">
-Viewing the dashboard of AD server manager and all configured services on the domain controller:  <br/>
+In this image we have saved the current state of the script to a file which we have called 'user_management.sh'. We have also changed the permissions of the file and made it executable so that we can proceed to run the script and ensure that it is working as intended.<br/>
 <img src="https://i.imgur.com/TvZsSlz.png" height="80%" width="80%" alt="AD Home Lab"/>
 <br />
 <br />
 
 <p align="center">
-DHCP enabled but still needs configuring: <br/>
+In this image, we are running the script and attempting to see if the functions that we created so far are working properly. Please note that the account that I am using to create and run the script is called 'user' so it already exists in the system. Additionally, there is also a group called 'IT' that exists in the system, which I created previously for use in a separate lab. So, when the script is run and I am prompted for a username, my input of 'user' is denied and I am supplied with an error message and relevant info which shows that 'user' already exists in the system. After selecting a username that is unique, I perform the same test for the group name. As you can see, 'IT' is denied because it already exists, however, my input of 'new_group' is accepted because it is unique. So far, the script seems to be working properly which means we can go back into it, add a few more commands which will allow us to fulfill the remaining requirements of the lab, and then test to make sure that the full script works altogether. <br/>
 <img src="https://i.imgur.com/1sVuzFp.png" height="80%" width="80%" alt="AD Home Lab"/>
 <br />
 <br />
 
 <p align="center">
-DHCP configured with scope 172.16.0.100-200:  <br/>
+In this image, we are back working within the script. I have added in several more commands in order to finish the script and satisfy the full requirements set forth by the lab. Some of the commands which I've added in include the useradd, groupadd, and passwd commands. The addition of these commands allow for the input user and group names to be officially added into the system once they are accepted by the script. The user will be provided with messages that state that the user and group names were successfully added, and the user will also be provided with a prompt that allows them to set a password for their account. The final few commands which follow include the mkdir, chown, and chmod commands. .... <br/>
 <img src="https://i.imgur.com/58AuDfn.png" height="80%" width="80%" alt="AD Home Lab"/>
 <br />
 <br />
