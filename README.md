@@ -19,7 +19,7 @@ The purpose of this lab is to demonstrate proficiency of using the built-in text
 <h2>Lab walk-through:</h2>
 
 <p align="center">
-In the image below, we are working within nano to create the first portion of the script which includes the set_username and set_group functions. These functions are designed to prompt for a user and group name, and after recieving input, will check /etc/passwd/ and /etc/group/ to see if those names already exist within the system. If the input names are unique, they will be accepted and a new user and group will be created. However, if the names already exist, the user will be provided with an error message and will be prompted to use a different name. <br/>
+In the image below, we are working within nano to create the first portion of the script which includes the set_username and set_group functions. These functions are designed to prompt for a user and group name, and after recieving input, will check /etc/passwd and /etc/group to see if those names already exist within the system. If the input names are unique, they will be accepted and a new user and group will be created. However, if the names already exist, the user will be provided with an error message and will be prompted to use a different name. <br/>
 <img src="https://i.imgur.com/sjZxzd9.png" height="80%" width="80%" alt="AD Home Lab"/>
 <br />
 <br />
@@ -37,13 +37,13 @@ In this image, we are running the script and attempting to see if the functions 
 <br />
 
 <p align="center">
-In this image, we are back working within the script. I have added in several more commands in order to finish the script and satisfy the full requirements set forth by the lab. Some of the commands which I've added in include the useradd, groupadd, and passwd commands. The addition of these commands allow for the input user and group names to be officially added into the system once they are accepted by the script. The user will be provided with messages that state that the user and group names were successfully added, and the user will also be provided with a prompt that allows them to set a password for their account. The final few commands which follow include the mkdir, chown, and chmod commands. .... <br/>
+In this image, we are back working within the script. I have added in several more commands in order to finish the script and satisfy the full requirements set forth by the lab. Some of the commands which I've added in include the useradd, groupadd, and passwd commands. The addition of these commands allow for the input user and group names to be officially added into the system once they are accepted by the script. The user will be provided with messages that state that the user and group names were successfully added, and the user will also be provided with a prompt that allows them to set a password for their account. The final few commands which follow include the mkdir, chown, and chmod commands. At this point, these commands are creating a directory at the root of the filesystem for each user, placing ownership of that directory in possession of the user that was created, and setting permissions of that directory so that the owner has full read, write, and execute permissions.  <br/>
 <img src="https://i.imgur.com/58AuDfn.png" height="80%" width="80%" alt="AD Home Lab"/>
 <br />
 <br />
 
 <p align="center">
-The powershell user creation script used to create 1k+ accounts:  <br/>
+In this image, we are attempting to run the script in its final form. By using the script, I am easily able to add 'test_user' who belongs to 'test_group' to the system, I am also able to give them a preliminary password, and the script also provides the new user with their own directory in which they have full control of their own files. A success message appears on the screen to showcase that all parts of the script ran accordingly,and by checking the /etc/passwd and /etc/group directories, we are able to confirm the existence of 'test_user' and 'test_group', thus confirming the success of the script.  <br/>
 <img src="https://i.imgur.com/Q8roGE7.png" height="80%" width="80%" alt="AD Home Lab"/>
 <br />
 <br />
