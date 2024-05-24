@@ -15,6 +15,7 @@ The purpose of this lab is to demonstrate proficiency of using the built-in text
 - <b>Ability of script to conduct proper error handling if a non-unique user or group name is provided.</b>
 - <b>Utilization of proper syntax to allow the script to correctly and smoothly process functions and commands.</b>
 - <b>Creation of a directory in the root of the file system for each new user in which the user is the owner of their directory.</b>
+- <b>Utilization of the sticky bit to ensure that other user's cannot delete files in a directory that is owned by another user.</b>
 
 <h2>Lab walk-through:</h2>
 
@@ -37,7 +38,7 @@ In this image, we are running the script and attempting to see if the functions 
 <br />
 
 <p align="center">
-In this image, we are back working within the script. I have added in several more commands in order to finish the script and satisfy the full requirements set forth by the lab. Some of the commands which I've added in include the useradd, groupadd, and passwd commands. The addition of these commands allow for the input user and group names to be officially added into the system once they are accepted by the script. The user will be provided with messages that state that the user and group names were successfully added, and the user will also be provided with a prompt that allows them to set a password for their account. The final few commands which follow include the mkdir, chown, and chmod commands. At this point, these commands are creating a directory at the root of the filesystem for each user, placing ownership of that directory in possession of the user that was created, and setting permissions of that directory so that the owner has full read, write, and execute permissions.  <br/>
+In this image, we are back working within the script. I have added in several more commands in order to finish the script and satisfy the full requirements set forth by the lab. Some of the commands which I've added in include the useradd, groupadd, and passwd commands. The addition of these commands allow for the input user and group names to be officially added into the system once they are accepted by the script. The user will be provided with messages that state that the user and group names were successfully added, and the user will also be provided with a prompt that allows them to set a password for their account. The final few commands which follow include the mkdir, chown, and chmod commands. At this point, these commands are creating a directory at the root of the filesystem for each user, placing ownership of that directory in possession of the user that was created, and setting permissions of that directory so that the owner has full read, write, and execute permissions. Additionally, we are also utilizing the chmod command to set the sticky bit on the new user directory that was created. This makes it so only the user who is the owner of that directory is able to delete files within the directory.  <br/>
 <img src="https://i.imgur.com/58AuDfn.png" height="80%" width="80%" alt="AD Home Lab"/>
 <br />
 <br />
