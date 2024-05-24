@@ -15,7 +15,7 @@ The purpose of this lab is to showcase proficiency while using the built-in text
 - <b>Ability of script to conduct proper error handling if a non-unique user or group name is provided.</b>
 - <b>Utilization of proper syntax to allow the script to correctly and smoothly process functions and commands.</b>
 - <b>Creation of a directory in the root of the file system for each new user in which the user is the owner of their directory.</b>
-- <b>Utilization of the sticky bit to ensure that other user's cannot delete files in a directory that is owned by another user.</b>
+- <b>Application of the sticky bit to ensure that other user's cannot delete files in a directory that is owned by another user.</b>
 
 <h2>Lab walk-through:</h2>
 
