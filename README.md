@@ -5,7 +5,7 @@
 <h2>Description</h2>
 ** This lab reflects Challenge Lab B in the 'Linux Essentials' course from the Network Development Group. **
 
-The purpose of this lab is to demonstrate proficiency of using the built-in text editors of Linux to write a bash script which makes the user account creation process more efficient. The scenario provided within this lab states that it can be tedious, time-consuming, and leaves room for potential errors when issuing commands one-by-one in order to add a new user to the system. So, we are tasked with streamlining this process and also expected to meet the following requirements:
+The purpose of this lab is to showcase proficiency while using the built-in text editors of Linux to write a bash script which makes the user account creation process more efficient. The scenario provided within this lab states that it can be tedious, time-consuming, and leaves room for potential errors when issuing commands one-by-one in order to add a new user to the system. So, we are tasked with streamlining this process and also expected to meet the following requirements:
 - The script must only accept input that allows for the creation of a unique user and group. If a user or group name already exists in the system, it must provide an 'error' message and prompt for a different user or group name. The script must also allow for a password to be set for each user created.
 - The script must create a directory at the root of the filesystem which matches the name of the user that was created. The permissions for this directory are to be set in such a manner that the respective user is also owner of the directory and the sole individual that can delete files within their directory. 
 
