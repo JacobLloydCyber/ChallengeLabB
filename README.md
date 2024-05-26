@@ -5,17 +5,18 @@
 <h2>Description</h2>
 ** This lab reflects Challenge Lab B in the 'Linux Essentials' course from the Network Development Group. **
 
-The purpose of this lab is to showcase proficiency while using nano to write a bash script which makes the user account creation process more efficient. The scenario provided within this lab states that the process of issuing singular commands to add a new user to the system is tedious and leaves room for potential errors. So, we are tasked with creating a script that streamlines this process and also meets the following requirements:
-- The script must only accept input that allows for the creation of a unique user and group. If a user or group name already exists in the system, it must provide an 'error' message and prompt for a different user or group name. The script must also allow for a password to be set for each user created.
-- The script must create a directory at the root of the filesystem which matches the name of the user that was created. The permissions for this directory are to be set in such a manner that the respective user is also owner of the directory and the sole individual that can delete files within their directory. 
+The purpose of this lab is to showcase proficiency while using nano to write a bash script which makes the user account creation process more efficient. The scenario provided within this lab states that the process of issuing singular commands to add a new user to the system is tedious and leaves room for possible error to occur. In this lab, I am tasked with creating a script that streamlines the user creation process and also meets the following requirements:
+- The script must only accept input that allows for the creation of a unique user and group. If a user or group name already exists in the system, an "error" message must be provided and the user should be prompted to provide a different input.
+- The script should allow for a password to be set at the time that a user is created.
+- The script must create a directory at the root of the filesystem which matches the name of the user that was created. The permissions for this directory are to be set in such a manner that the named user is the owner of the directory and the sole individual that can delete files within the directory. 
 
 <h2>Key Points Within Lab: </h2>
 
-- <b>Creation of executable script which streamlines account username, group, and password creation.</b>
-- <b>Ability of script to conduct proper error handling if a non-unique user or group name is provided.</b>
-- <b>Utilization of proper syntax to allow the script to correctly and smoothly process functions and commands.</b>
-- <b>Creation of a directory in the root of the file system for each new user in which the user is the owner of their directory.</b>
-- <b>Application of the sticky bit to ensure that other user's cannot delete files in a directory that is owned by another user.</b>
+- <b>Demonstrate ability to enter Linux text editor (nano) to write, modify, and save a functional script.</b>
+- <b>Demonstrate ability to make the script accept user input and conduct error handling in the event of invalid input.</b>
+- <b>Demonstrate ability to utilize proper syntax while creating functions and writing various commands.</b>
+- <b>Demonstrate ability to create directories and modify their ownership.</b>
+- <b>Demonstrate ability to manage special permissions within the Linux file system.</b>
 
 <h2>Lab walk-through:</h2>
 
