@@ -1,6 +1,7 @@
 <h1>Challenge Lab B: Bash Scripting</h1>
-
+<!--
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+--!>
 
 <h2>Description</h2>
 ** This lab reflects Challenge Lab B in the 'Linux Essentials' course from the Network Development Group. **
